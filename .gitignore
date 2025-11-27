@@ -1,0 +1,63 @@
+# ---------------------------
+# Python cache / compiled
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# OS junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+venv/
+env/
+packenv/
+bin/
+lib/
+
+# ---------------------------
+# PyInstaller / build output
+# ---------------------------
+dist/
+build/
+pyinstaller/
+*.build
+*.bin
+
+# ---------------------------
+# App bundles / output
+# ---------------------------
+TPClock/
+TPClock.app/
+
+# ---------------------------
+# IDE configs
+# ---------------------------
+.idea/
+
+# ---------------------------
+# Archives / auto-generated files
+# ---------------------------
+*.zip
+AppIcons.zip
+
+# ---------------------------
+# Project-specific ignored files
+# ---------------------------
+
+main.bin
+main.build
+temp.png
+test.py
+test2.py
+ellipse.py
+forMark.py
+Two_digits_first.py
+Animation_test_best.py
+generate_digits.py
