@@ -1,59 +1,67 @@
-# ---------------------------
-# Python cache / compiled
-# ---------------------------
+# ============================================
+# PYTHON CACHE / COMPILED
+# ============================================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# ---------------------------
-# OS junk
-# ---------------------------
+# ============================================
+# OS JUNK
+# ============================================
 .DS_Store
 Thumbs.db
 
-# ---------------------------
-# Virtual environments
-# ---------------------------
+# ============================================
+# VIRTUAL ENVS
+# ============================================
 venv/
 env/
 packenv/
 bin/
 lib/
 
-# ---------------------------
-# PyInstaller / build output
-# ---------------------------
+# ============================================
+# PYINSTALLER / BUILD OUTPUT
+# ============================================
 dist/
 build/
 pyinstaller/
 *.build
 *.bin
 
-# ---------------------------
-# App bundles / output
-# ---------------------------
+# ============================================
+# APP BUNDLES / OUTPUT
+# ============================================
 TPClock/
 TPClock.app/
+TPClock.app/Contents/
+TPClock.app/Contents/**
 
-# ---------------------------
-# IDE configs
-# ---------------------------
+# ============================================
+# IDE CONFIGS
+# ============================================
 .idea/
+.vscode/
 
-# ---------------------------
-# Archives / auto-generated files
-# ---------------------------
+# ============================================
+# ARCHIVES / AUTO-GENERATED
+# ============================================
 *.zip
+*.tar
+*.gz
+*.tgz
 AppIcons.zip
 
-# ---------------------------
-# Project-specific ignored files
-# ---------------------------
-
+# ============================================
+# PROJECT-SPECIFIC GENERATED FILES
+# ============================================
 main.bin
 main.build
 temp.png
+favicon.ico
+applecon.icns
+compiling_into_app.md
 test.py
 test2.py
 ellipse.py
@@ -61,3 +69,22 @@ forMark.py
 Two_digits_first.py
 Animation_test_best.py
 generate_digits.py
+main_old.py
+main2.py
+Buttons.py
+
+# ============================================
+# PKG / XCODE / MACOS PROJECT FILES
+# (ты их не используешь, но они у тебя в репо)
+# ============================================
+*.pkgproj
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+*.xcuserdatad
+*.swiftpm
+*.plist
+
+TPClock.pkgproj
+TPClock_3.pkgproj
+TPClock.spec
